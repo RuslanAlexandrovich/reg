@@ -166,7 +166,7 @@ class Container extends React.Component {
           email: emailInput.value,
           password: passwordInput.value
       };
-      // setCookie("formData", JSON.stringify(formData), 1);
+      // this.setCookie("formData", JSON.stringify(formData), 1);
       this.setCookie(formData.name, formData.password, 1);
       console.log(formData)
   } else {
